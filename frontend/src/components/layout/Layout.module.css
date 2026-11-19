@@ -8,3 +8,9 @@
 .header nav a:hover, .header nav a[aria-current="page"] { color: #fff; background: #304742; }
 .main { flex: 1; width: 100%; max-width: 1240px; margin: auto; padding: clamp(1.4rem, 4vw, 3rem) clamp(1rem, 4vw, 3rem); }
 .footer { border-top: 1px solid var(--border); color: var(--muted); padding: 1.15rem; font-size: .875rem; text-align: center; }
+
+.session { margin-left: auto; display: flex; align-items: center; gap: .65rem; font-size: .875rem; }
+.identity small { margin-left: .25rem; color: #d7eea8; font-size: .82rem; }
+.session a, .session button { padding: .4rem .65rem; border-radius: .4rem; border: 1px solid #62776d; background: transparent; color: #f4faf7; font: inherit; text-decoration: none; cursor: pointer; }
+.session a:hover, .session button:hover { background: #304742; }
+@media (max-width: 680px) { .session { margin-left: 0; } .header nav { order: 1; width: 100%; } }
